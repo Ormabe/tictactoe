@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Kalam');
+// VARIABLES:
+$body-color: #FAFAFA;
+$text: #FAFAFA;
+$button: #132326;
+$cell: #315C63;
+$github: #5C5C5C;
+
+body, html {
+  margin: 0;
+}
+
+body {
+  text-align: center;
+  background-color: $body-color;
+  font-family: 'Kalam', cursive;
+}
+
+#banner {
+  font-size: 80px;
+  margin-top: -15px;
+  padding-top: 20px;
+  font-family: 'Kalam', cursive;
+}
+
+footer {
+    position: fixed;
+    height: 100px;
+    bottom: 0;
+    width: 100%;
+}
+
+.grid, .panel {
+  padding-top: 20px;
+  width: 360px;
+  text-align: center;
+  margin: auto;
+  clear: both;
+}
+
+a {
+  text-decoration: none;
+}
+
+.github {
+  color: $github;
+  font-family: 'Kalam', cursive;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 35px 5px 35px;
+  background-color: $button;
+  color: $text;
+  cursor: pointer;
+  border-radius: 7.5px;
+  font-size: 20px;
+  font-family: 'Kalam', cursive;
+}
+
+.cell {
+  display: inline-block;
+  float: left;
+  background-color: $cell;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  color: $text;
+  text-align: center;
+  font-size: 65px;
+  line-height: 100px;
+  cursor: pointer;
+}
+
+.cell:first-of-type {
+  border-radius: 10px 0px 0px 0px
+}
+
+.cell:nth-of-type(3) {
+  border-radius: 0px 10px 0px 0px
+}
+
+.cell:nth-of-type(7) {
+  border-radius: 0px 0px 0px 10px
+}
+
+.cell:nth-of-type(9) {
+  border-radius: 0px 0px 10px 0px
+}
+
+.cell:nth-child(3n+1) {
+  clear: left;
+}
+
+.flashline {
+  display: block;
+  width: 100%;
+  font-size: 40px;
+  line-height: 60px;
+  text-align: center;
+  background-color: $cell;
+  color: $text;
+}
