@@ -1,7 +1,7 @@
-<p align="center">
-![Alt text](images/xo.png "Logo")
-![Alt text](images/tictactoe.png "Page title")
-</p>
+
+![alt text](images/xo.png "Logo")
+![alt text](images/tictactoe.png "Page title")
+
 
 * Live Demo: https://ttp-tictactoe.herokuapp.com
 
@@ -29,7 +29,7 @@ All Visitor's are able immediately play a game with a friend.
 
 * Step 2. Run the build file:
 
-    - **webpack -p**
+    - **npm build**
 
 
 * Step 3. Start the server
