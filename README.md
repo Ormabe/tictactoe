@@ -1,6 +1,6 @@
 <p align="center">
-![Alt text](images/xo.png "Logo")
-![Alt text](images/tictactoe.png "Page title")
+![alt text](images/xo.png "Logo")
+![alt text](images/tictactoe.png "Page title")
 </p>
 
 * Live Demo: https://ttp-tictactoe.herokuapp.com
