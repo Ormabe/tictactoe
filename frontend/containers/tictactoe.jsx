@@ -29,7 +29,7 @@ class TicTacToe extends React.Component {
           />
         </div>
         <footer>
-          <a href="https://github.com/Ormabe/culture_vault">
+          <a href="https://github.com/Ormabe/tictactoe">
             <h5 className="github">Also on Github!</h5>
             <Image />
           </a>

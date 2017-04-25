@@ -1,4 +1,5 @@
 const path = require('path');
+const webpack= require('webpack');
 
 process.noDeprecation = true;
 
@@ -44,5 +45,10 @@ module.exports = {
         loader: 'file-loader?name=[name].[ext]!url-loader?limit=25000'
       }
     ]
-  }
+  },
+  plugins:[
+    new webpack.DefinePlugin({
+      'process.env.NODE_ENV': JSON.stringify('production')
+    })
+  ]
 };
