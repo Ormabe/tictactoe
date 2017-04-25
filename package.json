@@ -5,7 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack --watch & nodemon server.js"
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ormabe/tictactoe.git"
+  },
+  "engines": {
+    "node": "6.9.1",
+    "npm": "4.0.5"
   },
   "author": "Rabiya Watson-Maiorana",
   "license": "MIT",
