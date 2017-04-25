@@ -1,6 +1,6 @@
 
-![alt text](images/xo.png "Logo")
-![alt text](images/tictactoe.png "Page title")
+![alt text](images/xo-sm.png "Logo")
+![alt text](images/tictactoe-sm.png "Page title")
 
 
 * Live Demo: https://ttp-tictactoe.herokuapp.com
