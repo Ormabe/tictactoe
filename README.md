@@ -29,7 +29,7 @@ All visitors are able to immediately play a game with a friend.
 
 * Step 2. Run the build file:
 
-    - **npm build**
+    - **webpack -p**
 
 
 * Step 3. Start the server
