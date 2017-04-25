@@ -17,7 +17,7 @@ This is a fun, easy two person game of TicTacToe.
 
 ## How does it work?
 
-All Visitor's are able immediately play a game with a friend.
+All Visitors are able to immediately play a game with a friend.
 
 ## How to run 'TicTacToe' locally:
 
