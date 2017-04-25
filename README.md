@@ -1,7 +1,7 @@
-<p align="center">
+
 ![alt text](images/xo.png "Logo")
 ![alt text](images/tictactoe.png "Page title")
-</p>
+
 
 * Live Demo: https://ttp-tictactoe.herokuapp.com
 
